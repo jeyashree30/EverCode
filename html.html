@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Tags</title>
+    <link rel="shortcut icon" href="images/book.jpeg" type="image/x-icon">
+</head>
+
+<body>
+    <h3>Anchor Tag</h3>
+    <a href="https://www.google.com/?hl=en-US" target="_blank">google</a><br>
+    <a href="https://www.amazon.in/" target="_blank">Amazon</a><br><br>
+
+    <h3>Image Tag</h3><br>
+    <img src="images/book.jpeg" alt="Book" width="400"><br>
+    <img src="https://images.pexels.com/photos/159866/books-book-pages-read-literature-159866.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        width="300" alt="Book image from pexels"><br><br>
+
+    <h3>Audio Tag</h3>
+    <audio src="images/sample_audio.mp3" controls muted></audio><br><br>
+
+    <h3>Video Tag</h3>
+    <video src="images/sample_video.mp4" controls muted loop></video><br><br>
+
+    <h3>Table</h3>
+    <table border="1px solid black" style="border-collapse: collapse;">
+        <tr>
+            <th>Day</th>
+            <th>Period 1</th>
+            <th>Period 2</th>
+            <th>Period 3</th>
+            <th>Period 4</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>Maths</td>
+            <td>Physics</td>
+            <td>Break</td>
+            <td>CSE Lab</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>English</td>
+            <td>DBMS</td>
+            <td>Break</td>
+            <td>OS</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>Java</td>
+            <td>Maths</td>
+            <td>Break</td>
+            <td>Mini Project</td>
+        </tr>
+        <tr>
+            <td>Thursday</td>
+            <td>DBMS</td>
+            <td>OS</td>
+            <td>Break</td>
+            <td>Sports</td>
+        </tr>
+        <tr>
+            <td>Friday</td>
+            <td>English</td>
+            <td>Library</td>
+            <td>Break</td>
+            <td>Workshop</td>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>OS</td>
+            <td>Java</td>
+            <td>Break</td>
+            <td>Lab</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>Maths</td>
+            <td>Project</td>
+            <td>Break</td>
+            <td>DBMS</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>Physics</td>
+            <td>English</td>
+            <td>Break</td>
+            <td>Seminar</td>
+        </tr>
+        <tr>
+            <td>Thursday</td>
+            <td>DBMS</td>
+            <td>OS</td>
+            <td>Break</td>
+            <td>PE</td>
+        </tr>
+        <tr>
+            <td>Friday</td>
+            <td>Java</td>
+            <td>Mini Project</td>
+            <td>Break</td>
+            <td>Free Hour</td>
+        </tr>
+    </table>
+
+    <h3>Form</h3>
+    <form>
+        <label>Name:</label>
+        <input type="text" placeholder="Your full name">
+        <br><br>
+        <label>Email:</label>
+        <input type="email" placeholder="example@gmail.com">
+        <br><br>
+        <label>Date of Birth:</label>
+        <input type="date">
+        <br><br>
+        <label>Gender:</label>
+        <select id="gender" name="gender">
+            <option value="">--Select--</option>
+            <option>Female</option>
+            <option>Male</option>
+            <option>Other</option>
+        </select>
+        <br><br>
+        <label for="file">Upload Resume:</label>
+        <input type="file" id="file" name="file">
+        <br><br>
+        <label for="feedback">Feedback:</label>
+        <textarea id="feedback" name="feedback" rows="3" placeholder="Your message..."></textarea>
+        <br><br>
+        <label>
+            <input type="checkbox" name="agree"> I agree to the terms
+        </label>
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <br>
+    <h3>List</h3>
+    <h4>UnOrdered List</h4>
+
+    <ul type=square>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Mango</li>
+        <li>Grapes</li>
+        <li>Orange</li>
+    </ul>
+
+    <h4>Ordered List</h4>
+
+    <ol type="a">
+        <li>Boil water</li>
+        <li>Add tea leaves</li>
+        <li>Add milk and sugar</li>
+        <li>Boil again</li>
+        <li>Strain and serve</li>
+    </ol>
+
+    <h4>Descriptive List</h4>
+
+    <dl>
+        <dt>HTML</dt>
+        <dd>Standard markup language for creating web pages.</dd>
+
+        <dt>CSS</dt>
+        <dd>Used to style and design web content.</dd>
+
+        <dt>JavaScript</dt>
+        <dd>Adds interactivity and logic to web pages.</dd>
+
+        <dt>Python</dt>
+        <dd>High-level, easy-to-read programming language used in many fields.</dd>
+
+        <dt>Java</dt>
+        <dd>Object-oriented language often used in Android apps and enterprise software.</dd>
+    </dl>
+
+    <br>
+
+    <h3>iframe</h3><br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/gavY1UJ1j5s?si=AqnaP6eztILXFsWQ" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+        picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <br>
+    <br>
+    <iframe src="https://www.zomato.com/" width=500 height="500"></iframe>
+</body>
+
+</html>
