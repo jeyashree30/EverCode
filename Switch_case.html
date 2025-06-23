@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let choice = prompt("Welcome to Food App! 🍔\nChoose your item:\n1. Pizza\n2. Burger\n3. Sandwich\n4. Exit");
+
+        switch (choice) 
+        {
+            case "1":
+                console.log("You selected 🍕 Pizza. It will be delivered in 30 mins.");
+                break;
+            case "2":
+                console.log("You selected 🍔 Burger. It will be delivered in 20 mins.");
+                break;
+            case "3":
+                console.log("You selected 🥪 Sandwich. It will be delivered in 15 mins.");
+                break;
+            case "4":
+                console.log("Thank you for visiting. Goodbye!");
+                break;
+            default:
+                console.log("Invalid choice. Please refresh and try again.");
+        }
+
+    </script>
+</body>
+
+</html>
